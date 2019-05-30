@@ -19,34 +19,7 @@ body {
   padding-top: 5px;
   margin: 5px;
 }
-.col2 {
-  width: 300px;
- float: left;
- border: 2px black solid;
- padding-top: 5px;
- margin: 5px;
-}
-.col3 {
-  width: 300px;
-  float: left;
-  border: 2px black solid;
-  padding-top: 5px;
-  margin: 5px;
-}
-.col4 {
-  width: 300px;
-  float: left;
-  border: 2px black solid;
-  padding-top: 5px;
-  margin: 5px;
-}
-.col5  {
-  width: 300px;
-  float: left;
-  border: 2px black solid;
-  padding-top: 5px;
-  margin: 5px;
-}
+
 .img1 {
   width: 290px;
   height: 290px;
@@ -62,3 +35,30 @@ body {
   text-align: center;
   font-size: 18px;
 }
+
+/* Added responsive media */
+
+@media screen and (max-width: 600px) {
+ body { background-color: black;
+ color: white;
+ font-style: italic;
+ }
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    background-color: teal;
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .col1 {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+aasdad
